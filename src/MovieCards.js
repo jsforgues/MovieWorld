@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const MovieCards = ({ movie }) => {
   // console.log("movie: " + movie.Title);
-  let label;
+   let label;
   if (movie.Type === 'movie') {
     label = <a className="ui green tag label">Movie</a>;
   } else if (movie.Type === 'series') {
