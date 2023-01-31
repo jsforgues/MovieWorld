@@ -10,4 +10,4 @@ Une fois sur la page principale, l’utilisateur peut choisir d’effectuer deux
 
 Une fois la recherche complétée, les « cards » de chaque film sont retournées sur la page principale. L’utilisateur peut ensuite choisir d’obtenir plus de détail sur un film en particulier en en cliquant sur le bouton « Details » de la carte, ce qui le mènera sur une page qui contient plusieurs informations sur le film.
 
-***Pour plus de détails, vous pouvez consulter le fichier pdf API OMBD inclus dans le repertoire.***
+***Pour plus de détails, vous pouvez consulter le fichier pdf API OMBD inclut dans le répertoire.***
