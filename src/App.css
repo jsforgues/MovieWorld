@@ -1,0 +1,367 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+.App {
+  text-align: center;
+  /*background-image: url('ciel.jpg');
+  background-size: cover;*/
+  background-color: #000000;
+  height: 100vh;
+  overflow: auto;
+  max-width: 200rem;
+  float: right;
+  width: 100%;
+  /*border: 0.05em solid rgb(162, 238, 137);*/
+
+}
+
+.title {
+  width: 100%;
+  height: 6rem;
+  margin: 2rem 0rem 1rem 0rem;
+  background: linear-gradient(to right, rgba(255, 230, 0, 0.792), rgb(210, 0, 252));
+  background-clip: text;
+  color: transparent;
+  /*border: 0.05em solid rgb(162, 238, 137);*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.titletxt {
+
+  font-size: 56px;
+  /*border: 0.02em solid rgb(199, 238, 137);*/
+}
+
+.search {
+  width: 30%;
+  height: 6%;
+  border: 0.05em solid rgb(16, 15, 15);
+  margin: 0 auto;
+  border-radius: 0.7rem;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(16, 15, 15);
+  border: 2px solid rgba(228, 217, 217, 0.756);
+}
+
+
+
+.searchtext {
+  width: 80%;
+  float: left;
+  height: 70%;
+  margin: 0.25rem;
+  background-color: rgb(16, 15, 15);
+  border-style: none;
+  color: rgba(228, 217, 217, 0.756);
+
+}
+
+
+
+.searchtext:hover {
+  border-style: none;
+  background-color: rgb(182, 34, 34);
+}
+
+.searchtext:focus {
+  outline: none;
+  background-color: rgb(25, 24, 24);
+}
+
+
+.searchicon {
+  margin: 0.15rem 1rem;
+  width: 5.5%;
+  height: 90%;
+  float: right;
+}
+
+.type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15rem 0.8rem 0rem 8rem;
+  width: 8.2rem;
+  height: 70%;
+  float: left;
+  /*border: 0.05em solid rgb(162, 238, 137);
+  /****/
+  color: aliceblue;
+  text-align: center;
+
+}
+
+.typechoice {
+  margin: 2rem 0;
+  width: 8rem;
+  /*border: 0.05em solid rgb(238, 137, 233);
+  /****/
+}
+
+.choicebutton {
+
+  width: 100%;
+  color: aliceblue;
+  background-color: rgb(25, 24, 24);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.typetitle {
+  margin: 0 0 2rem 0;
+  font-size: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.yearchoice {
+  margin: 2rem 0 2rem 0;
+  width: 8rem;
+  height: 7rem;
+  /*border: 0.05em solid rgb(238, 137, 233);
+  /****/
+
+}
+
+.yeartitle {
+  margin: 0 0 1.5rem 0;
+  font-size: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.yearselect {
+  height: 1.5rem;
+  width: 5rem;
+  color: aliceblue;
+  background-color: rgb(25, 24, 24);
+
+}
+
+.imdbidchoice {
+  margin: 2rem 0 2rem 0;
+  width: 8rem;
+  /*border: 0.05em solid rgb(238, 137, 233);
+  /****/
+}
+
+.imdbidtitle {
+  margin: 0 0 1.5rem 0;
+  font-size: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.imdbidtext {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  color: rgb(83, 81, 81);
+
+}
+
+::placeholder {
+  color: rgb(179, 187, 187);
+}
+
+.imdbidtext:focus {
+  outline: none;
+}
+
+.moviesdisplay {
+  margin: 5rem 2rem;
+  width: 85%;
+  height: 70%;
+  float: right;
+  /*border: 0.05em solid rgb(162, 238, 137);
+  /****/
+  color: white;
+  overflow: auto;
+  max-width: 120rem;
+  flex-wrap: wrap;
+  flex-basis: 16rem;
+}
+
+.moviecards {
+  margin: 0.5rem 0.5rem 3rem 0.5rem;
+  border-radius: 0.5em;
+  border: 0;
+  width: 14rem;
+  height: 32rem;
+  display: inline-block;
+}
+
+
+.cardsimage {
+  margin: 0 0 0.2rem 0;
+  width: 13rem;
+  border-radius: 0.5rem;
+  height: 18rem;
+
+}
+
+
+.cardsyear {
+  /*border: 0.05em solid rgb(162, 238, 137);
+  /****/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.cardstype {
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  /*border: 0.05em solid rgb(162, 238, 137);
+  /****/
+
+}
+
+
+
+.cardstitle {
+  height: 4em;
+  color: white;
+  /*border: 0.05em solid rgb(162, 238, 137);
+  /****/
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cardsbutton {
+  width: 40%;
+  color: rgb(21, 59, 226);
+  border-radius: 0.5em;
+  border: 0.05em solid grey;
+}
+
+.empty {
+  color: white;
+  /*border: 0.05em solid rgb(162, 238, 137);
+  /****/
+}
+
+.descriptionimg {
+  width: 25rem;
+  height: 35rem;
+  border: 0.05rem solid rgb(94, 91, 93);
+  /****/
+  margin: 5rem;
+  border-radius: 1rem;
+}
+
+.descriptioninfo {
+  height: 40rem;
+  margin: 3rem;
+  border: 0.2rem solid#E2B616;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  Color: rgba(244, 237, 237, 0.916);
+  
+}
+
+
+.descriptiontitle {
+  font-size: 22px;
+  text-align: center;
+  color: rgba(228, 217, 217, 0.756);
+}
+
+.descriptionoverview {
+  font-size: 18px;
+  text-align: left;
+  color: rgba(228, 217, 217, 0.756);
+}
+
+.descriptionrating {
+  width: 70%;
+  text-align: center;
+  /*border: 0.05rem solid rgb(171, 168, 170);*/
+  margin: 0 0 2rem 8rem;
+}
+
+.descriptiontime {
+  font-size: 14px;
+  text-align: right;
+  float: right
+}
+
+
+.prompt {
+  font-size: 16px;
+  text-align: left;
+  Color: rgba(228, 217, 217, 0.756);
+}
+
+.ui.card,
+.ui.cards>.card {
+  background: linear-gradient(to bottom, #000000, #414141);
+}
+/*
+.ui.card>.content,
+.ui.cards>.card>.content {
+  background-image: linear-gradient(to bottom, #000000 0%, #414141 100%);
+}*/
+
+.ui.card>.content.extra,
+.ui.cards>.card>.content.extra {
+  background-image: #FF9000;
+}
+
+
+
+.ui.black.label{
+  width: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 190px;
+  height: 60px;
+  line-height: 1.3;
+}
