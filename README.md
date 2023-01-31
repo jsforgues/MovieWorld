@@ -1,6 +1,6 @@
 # MovieWorld
 
-MovieWorld est une application qui utilise l’API OMdB. Elle permet de rechercher des films, des séries ou des épisodes d’une série en fonction de certains paramètres et elle permet d’obtenir plusieurs informations concernant ces œuvres (réalisateur, année, pays, etc.).  
+MovieWorld est une application qui utilise l’API OMdB. Elle permet de rechercher des films, des séries ou des épisodes d’une série en fonction de certains paramètres de recherche et elle permet d’obtenir plusieurs informations concernant ces œuvres (réalisateur, année, pays, etc.).  
 
 Une fois sur la page principale, l’utilisateur peut choisir d’effectuer deux types de recherche :  
 
