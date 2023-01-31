@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useRef, useState } from "react";
 import Page404 from "./Page404";
 import SearchIcon from "./searchicon.jpg";
