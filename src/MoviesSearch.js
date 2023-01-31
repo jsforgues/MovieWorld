@@ -201,7 +201,7 @@ const MoviesSearch = () => {
             fluid
             selection
             options={yearOptions}
-            onChange={(e) => setCountry(e.target.value)}//**ajout ici */
+            /*onChange={(e) => setCountry(e.target.value)}//**ajout ici */
           />
         </div>
         <div className="imdbidchoice">
