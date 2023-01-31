@@ -12,8 +12,10 @@ const MovieCards = ({ movie }) => {
     label = <a className="ui green tag label">Movie</a>;
   } else if (movie.Type === 'series') {
     label = <a className="ui blue tag label">Series</a>;
-  } else {
+  } else if (movie.Type === 'episode') {
     label = <a className="ui purple tag label">Episode</a>;
+  } else {
+    label = <a className="ui pink tag label">Autre</a>;
   }
   return (
     <div className="moviecards">
